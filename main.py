@@ -52,7 +52,7 @@ class Checker:
             return task
 
 if __name__ == '__main__':
-    system('title TikTok Username Checker by NightfallGT')
+    system('title TikTok Username Checker by Treffle')
     system('cls')
     username_list = open_file() 
     checker = Checker(username_list)
